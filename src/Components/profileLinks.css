@@ -1,0 +1,16 @@
+.parentConatiner {
+    display: flex;
+    margin-top: 3rem;
+    justify-content: center;
+    
+
+}
+.intro {
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 500;
+    line-height: 1.8;
+    text-decoration: underline;
+    text-decoration-color: blueviolet;
+    text-decoration-thickness: 4px;
+}
