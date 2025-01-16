@@ -1,14 +1,16 @@
 body {
     height: 100vh;
     background-color: rgb(230, 230, 221);
+    
 }
 .container {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 .container img {
-    height: 70vh;
+    height: 50vh;
     object-fit: cover;
     padding-top: 1rem;
 }
@@ -19,8 +21,6 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 2rem;
-
-   
 
 }
 li {
@@ -48,15 +48,12 @@ li {
 h1 {
     margin-bottom: 0;
     font-size: 3rem;
-    text-align: center;
     line-height: 1.5;
-}
- h1:hover {
     text-decoration: underline;
     text-decoration-color: blueviolet;
     text-decoration-thickness: 2px;
+}
 
- }
  .skill1 {
     display: flex;
     align-items: center;

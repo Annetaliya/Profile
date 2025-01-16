@@ -1,16 +1,29 @@
-.parentConatiner {
+.parentContainer {
     display: flex;
     margin-top: 3rem;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
     
 
 }
 .intro {
     text-align: center;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     font-weight: 500;
     line-height: 1.8;
     text-decoration: underline;
     text-decoration-color: blueviolet;
     text-decoration-thickness: 4px;
+}
+.thumbnail {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+.proLink {
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }

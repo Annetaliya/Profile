@@ -5,7 +5,7 @@ import ProfileLinks from './Components/ProfileLinks';
 
 function App() {
   return (
-    <div className="">
+    <div className="App">
       <Home />
       <ProfileLinks />
     </div>

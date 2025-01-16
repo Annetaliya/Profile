@@ -2,23 +2,30 @@ import React from 'react';
 import './profileLinks.css';
 
 function ProfileLinks() {
+    
     return <div className='containers'>
         <p className='intro'>Here are some of my projects</p>
-        <div className='parentConatiner'>
+        <div className='parentContainer'>
             
-            <div>
-                <a href='https://landing-page-i6zw.vercel.app/' target="_blank">
-                    <img src='https://lh3.googleusercontent.com/d/1m-clqocWaseCcEDDoKXn4Q9-jYL1K45K=s220?authuser=0' alt='landing' />
+            <div className='proLink'>
+                <a href='https://landing-page-i6zw.vercel.app/' target="_blank"  rel="noopener noreferrer">
+                    <div className='thumbnail'></div>
                 </a>
                 
-                <a href='https://landing-page-i6zw.vercel.app/' target="_blank">Sample Landing page</a>
+                <a className='anchor' href='https://landing-page-i6zw.vercel.app/' target="_blank"  rel="noopener noreferrer">Sample Landing page</a>
             </div>
-            <div>
-                <a href='https://659968189ed589e081611c57--jocular-valkyrie-82c7de.netlify.app/' target="_blank" >
-                <img src='https://lh3.googleusercontent.com/d/1FPxAUkC4HDTHW4dvyoAiBuO-Up1HDsAj=s220?authuser=0' alt='website' />
+            <div className='proLink'>
+                <a href='https://659968189ed589e081611c57--jocular-valkyrie-82c7de.netlify.app/' target="_blank"  rel="noopener noreferrer">
+                    <div className='thumbnail'></div>
 
                 </a> 
-                <a href='https://659968189ed589e081611c57--jocular-valkyrie-82c7de.netlify.app/' target="_blank">E commerce website</a>
+                <a href='https://659968189ed589e081611c57--jocular-valkyrie-82c7de.netlify.app/' target="_blank"  rel="noopener noreferrer">E commerce website</a>
+            </div>
+            <div className='proLink'>
+                <a href='#home'>
+                    <div className='thumbnail'></div>
+                </a>
+                <a href='#home'>Sample dummy project</a>
             </div>
         </div>
         
