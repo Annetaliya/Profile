@@ -10,7 +10,7 @@ body {
     justify-content: center;
 }
 .container img {
-    height: 50vh;
+    max-width: 100%;
     object-fit: cover;
     padding-top: 1rem;
 }
