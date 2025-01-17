@@ -1,13 +1,4 @@
-.parentContainer {
-    display: flex;
-    margin-top: 3rem;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    
 
-}
 .intro {
     text-align: center;
     font-size: 2.5rem;
@@ -17,6 +8,11 @@
     text-decoration-color: blueviolet;
     text-decoration-thickness: 4px;
 }
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
 .thumbnail {
     width: 100px;
     height: 100px;
@@ -24,6 +20,12 @@
 }
 .proLink {
     display: flex;
+    justify-content: center;
     align-items: center;
-    gap: 20px;
+    margin-bottom: 20px;
 }
+.proLink p {
+    padding-left: 0.5rem;
+    width: 200px;
+}
+

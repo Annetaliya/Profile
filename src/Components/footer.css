@@ -1,0 +1,18 @@
+.footer {
+    background-color: #929292;
+}
+p{
+    padding: 20px 0;
+}
+.contactInfo span {
+    padding-left: 10px;
+}
+.contactInfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 10px;
+    cursor: pointer;
+
+}
