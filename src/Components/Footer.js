@@ -40,7 +40,7 @@ function Footer() {
           <span>+254702416572</span>
         </div>
       </div>
-      <p>CopyRight &copy; {year} Annette Adhiambo. All rights reserved.</p>
+      <p className="copy-text">CopyRight &copy; {year} Annette Adhiambo. All rights reserved.</p>
     </div>
   );
 }

@@ -8,17 +8,22 @@ const NavBar = () => {
 
   return (
     <div>
-      <ul className="nav-items">
-        {nav.map((item, index) => (
-          <li
-            key={index}
-            className={`list-items ${activeIndex === index ? "active" : ""}`}
-            onClick={() => setAciveIndex(index)}
-          >
-            {item}
-          </li>
-        ))}
-      </ul>
+        <div className="nav-container">
+            <div className="logo">
+                <p>AA</p>
+            </div>
+            <ul className="nav-items">
+                {nav.map((item, index) => (
+                <li
+                    key={index}
+                    className={`list-items ${activeIndex === index ? "active" : ""}`}
+                    onClick={() => setAciveIndex(index)}
+                >
+                    {item}
+                </li>
+                ))}
+            </ul>
+        </div>
     </div>
   );
 };

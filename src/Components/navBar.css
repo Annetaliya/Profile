@@ -7,7 +7,7 @@
 }
 .list-items {
     padding-right: 4rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 .list-items:hover{
     color: blueviolet;
@@ -17,4 +17,20 @@
     text-decoration: underline;
     text-decoration-color: blueviolet;
     color: blueviolet;
+    text-underline-offset: 6px;
+    
+}
+.logo {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: antiquewhite;
+}
+.logo p {
+    padding-top: 0;
+}
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }

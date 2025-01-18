@@ -18,17 +18,22 @@ function Home () {
     
     return (
         <div>
-            <div className='container'>
+        
                 
                 <div className='title'>
-                <div>
-                    <img src={person.photo} alt="profile"/>
-                </div>
-                    <p className='name'>{person.name}</p>
-                    <p className='profession'>{person.profession}</p>
+                    <div>
+                        <p className='name'>{person.name}</p>
+                        <p className='profession'>{person.profession}</p>
+                        
+                    </div>
+                    <div>
+                        <img src={person.photo} alt="profile"/>
+                    </div>
+                    
+                    
                 </div>
                
-            </div>
+            
             
             <div className='skills'>
                 <h1>Skills</h1>
@@ -36,10 +41,7 @@ function Home () {
                     <li>{person.skills.skill1}</li>
                     <li>{person.skills.skill2}</li>
                 </ul>
-                {/* <div className='skill1'>
-                    <MdComputer size={50}/>
-                    <p>{person.skills.skill1}</p>
-                </div> */}
+                
                 
             </div>
            
