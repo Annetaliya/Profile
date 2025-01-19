@@ -6,7 +6,7 @@ import { FaFigma } from "react-icons/fa6";
 const person = {    
         photo: 'https://lh3.googleusercontent.com/d/1JeJZkwlAJFPJrrM14ci7Ji_tS8iumrr6=s220?authuser=0', 
         name: 'Annette Adhiambo',
-        profession: 'Software Engineer',
+        profession: 'Fontend Developer',
         skills: {
             skill1: 'Web design',
             skill2: 'Front-end development'
@@ -17,33 +17,31 @@ const person = {
 function Home () {
     
     return (
-        <div>
-        
-                
+        <div>      
                 <div className='title'>
-                    <div>
-                        <p className='name'>{person.name}</p>
+                    <div className='intro-text'>
+                        <p className='name'><span>Hello</span> I'm {person.name}</p>
                         <p className='profession'>{person.profession}</p>
+                        <p>I'm a skilled frontend website developer with
+                         experience in creating modern and responsive websites</p>
                         
                     </div>
                     <div>
                         <img src={person.photo} alt="profile"/>
-                    </div>
-                    
-                    
+                    </div>    
                 </div>
                
-            
-            
-            <div className='skills'>
-                <h1>Skills</h1>
-                <ul>
-                    <li>{person.skills.skill1}</li>
-                    <li>{person.skills.skill2}</li>
-                </ul>
-                
-                
-            </div>
+                <h1 className='skill-intro'>What I do</h1>
+                <div className='skill-container'>
+                    <div className='skill-container-first'>
+                        <MdComputer size={40}/>
+                        <p>{person.skills.skill1}</p>    
+                    </div>
+                    <div className='skill-container-first'>
+                        <FaFigma size={40}/>
+                        <p>{person.skills.skill2}</p>
+                    </div>
+                </div>
            
             
         </div>

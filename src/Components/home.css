@@ -23,6 +23,17 @@ body {
     padding-top: 20px;
     
 }
+.into-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+
+}
+.into-text p {
+    display: inline;
+    text-align: left;
+}
 
 .skills {
     display: flex;
@@ -54,33 +65,36 @@ li {
     margin-bottom: 0;
     color: blueviolet;
 }
-h1 {
+.skill-intro {
     margin-bottom: 0;
     font-size: 3rem;
     line-height: 1.5;
     text-decoration: underline;
     text-decoration-color: blueviolet;
-    text-decoration-thickness: 2px;
+    text-decoration-thickness: 3px;
+    padding-top: 4rem;
+    text-underline-offset: 6px;
 }
-
- .skill1 {
+.skill-container {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    gap: 20px;
     
- }
- .skill2 {
+}
+.skill-container-first {
     display: flex;
+    justify-content: center;
     align-items: center;
     gap: 20px;
- }
- .skill1 p {
-    font-size: 1.5rem;
-    font-size: 300;
-    color: blueviolet
- }
- .skill2 p {
-    font-size: 1.5rem;
-    font-size: 300;
-    color: blueviolet
- }
+    background-color: antiquewhite;
+    margin-bottom: 1rem;
+    padding: 10px 20px;
+    border-radius: 8px;
+    min-width: 550px;
+    cursor: pointer;
+
+}
+ 
+ 
+ 
