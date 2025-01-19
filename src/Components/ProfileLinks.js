@@ -5,18 +5,22 @@ const link = [
   {
     item: "https://landing-page-i6zw.vercel.app/",
     title: "Sample landing page",
+    photo: 'https://lh3.googleusercontent.com/d/1FPxAUkC4HDTHW4dvyoAiBuO-Up1HDsAj=s220?authuser=0'
   },
   {
     item: "https://659968189ed589e081611c57--jocular-valkyrie-82c7de.netlify.app/",
     title: "E-Commerce Website",
+    photo: 'https://lh3.googleusercontent.com/d/1m-clqocWaseCcEDDoKXn4Q9-jYL1K45K=s220?authuser=0'
   },
   {
     item: "#home",
     title: "Sample Project",
+    photo: 'https://lh3.googleusercontent.com/d/1fh4JQGs0CjtHkG4d7QmXxlbAK_7WRQkz=s220?authuser=0'
   },
 ];
 
 function ProfileLinks() {
+  
   return (
     <div>
       <p className="intro">My Portfolio</p>
@@ -29,7 +33,7 @@ function ProfileLinks() {
         ? link.map((links, index) => (
             <div key={index} className="proLink ">
               <a href={links.item} target="_blank" rel="noreferrer">
-                <div className="thumbnail"></div>
+                <img src={links.photo} alt='website' />
               </a>
               <p>{links.title}</p>
             </div>

@@ -95,6 +95,23 @@ li {
     cursor: pointer;
 
 }
+@media (max-width: 576px) and (max-width: 768px) {
+    .skill-container-first {
+        min-width: 350px;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .title {
+        display: flex;
+        flex-direction: column;
+    }
+    .name span{
+        font-size: 3.5rem
+    }
+    .into-text p{
+        font-size: 0.5rem;
+    }
+}
  
  
  

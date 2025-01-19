@@ -33,4 +33,14 @@
     padding-left: 0.5rem;
     width: 200px;
 }
-
+ @media (max-width: 576px) and (max-width: 768px){
+    .intro-paragraph {
+        text-align: center;
+        margin: 10px 4px;
+    }
+ }
+ @media (max-width: 768px) {
+    .proLink {
+        margin-left: 20px
+    }
+ }

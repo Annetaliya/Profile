@@ -19,7 +19,7 @@ function Home () {
     return (
         <div>      
                 <div className='title'>
-                    <div className='intro-text'>
+                    <div className='c'>
                         <p className='name'><span>Hello</span> I'm {person.name}</p>
                         <p className='profession'>{person.profession}</p>
                         <p>I'm a skilled frontend website developer with

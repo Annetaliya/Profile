@@ -34,3 +34,30 @@
     align-items: center;
     justify-content: space-between;
 }
+.menu {
+    display: none;
+}
+
+@media (max-width: 576px) and (max-width: 768px){
+    .menu {
+        display: block;
+        cursor: pointer;
+    }
+   
+    .nav-items {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 30px; /* Adjust based on your header height */
+        right: 10px;
+        background-color: transparent;
+        padding: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+        border-radius: 5px;
+    }
+    .nav-items.open {
+        display: flex; /* Show navigation items when menu is open */
+      }
+
+    
+}
