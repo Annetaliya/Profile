@@ -1,7 +1,13 @@
 import React, { useState } from "react";
+import { Link } from 'react-scroll';
 import "./navBar.css";
 
-const nav = ["Home", "About", "Portfolio", "Contact"];
+const nav = [
+  { name: "Home", to: "home" },
+  { name: "About", to: "home" },
+  { name: "Portfolio", to: "portfolio" },
+  { name: "Contact", to: "contact" },
+];
 
 const NavBar = () => {
   const [activeIndex, setAciveIndex] = useState(0);
@@ -12,7 +18,7 @@ const NavBar = () => {
   }
 
   return (
-    <div>
+    <div className="navbar">
       <div className="nav-container">
         <div className="logo">
           <p>AA</p>
@@ -24,7 +30,15 @@ const NavBar = () => {
               className={`list-items ${activeIndex === index ? "active" : ""}`}
               onClick={() => setAciveIndex(index)}
             >
-              {item}
+              <Link
+                to={item.to}
+                smooth={true}
+                duration={500}
+                offset={-70} // Adjust for navbar height
+                spy={true}
+              >
+               {item.name}
+              </Link>
             </li>
           ))}
         </ul>

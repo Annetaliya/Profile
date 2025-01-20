@@ -8,10 +8,13 @@ import NavBar from './Components/NavBar';
 function App() {
   return (
     <div className="App">
-      <NavBar />
-      <Home />
-      <ProfileLinks />
-      <Footer />
+      
+        <NavBar />
+        <Home />
+        <ProfileLinks />
+        <Footer />
+        
+      
     </div>
   );
 }

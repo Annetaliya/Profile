@@ -6,7 +6,7 @@ const year = date.getFullYear();
 
 function Footer() {
   return (
-    <div className="footer">
+    <div className="footer" id='contact'>
       <div className="contactInfo">
         <div className="">
           <svg

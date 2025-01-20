@@ -22,7 +22,7 @@ const link = [
 function ProfileLinks() {
   
   return (
-    <div>
+    <div id='portfolio'>
       <p className="intro">My Portfolio</p>
       <p className="intro-paragraph">
         I take pride in paying attention to the smallest details and making sure

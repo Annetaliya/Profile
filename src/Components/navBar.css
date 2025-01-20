@@ -33,6 +33,14 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+   
+}
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    padding: 1rem 2rem;
+
 }
 .menu {
     display: none;

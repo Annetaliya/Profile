@@ -18,7 +18,7 @@ function Home () {
     
     return (
         <div>      
-                <div className='title'>
+                <div className='title' id='home'>
                     <div className='c'>
                         <p className='name'><span>Hello</span> I'm {person.name}</p>
                         <p className='profession'>{person.profession}</p>
