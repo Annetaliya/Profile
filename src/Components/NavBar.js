@@ -34,7 +34,7 @@ const NavBar = () => {
                 to={item.to}
                 smooth={true}
                 duration={500}
-                offset={-70} // Adjust for navbar height
+                offset={-70} 
                 spy={true}
               >
                {item.name}
