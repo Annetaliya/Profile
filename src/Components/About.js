@@ -12,13 +12,13 @@ function About() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaLinkedin size={30} />
+          <FaLinkedin size={30} color="#0077b5" />
         </a>
         <a href="https://github.com/Annetaliya"
         target="_blank"
         rel="noopener noreferrer"
         >
-            <FaGithub size={30}/>
+            <FaGithub size={30} color='#000'/>
         </a>
 
         

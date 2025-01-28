@@ -1,7 +1,5 @@
 .about-container {
     display: flex;
-    margin-top: 3rem;
     justify-content: center;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 8rem 2rem;
 }

@@ -1,6 +1,6 @@
 body {
     height: 100vh;
-    background-color: rgb(230, 230, 221);
+    background-color: #ede8f5;
     
 }
 .container {
@@ -56,21 +56,21 @@ li {
 }
 .name span {
     font-size: 5rem;
-    color: blueviolet;
+    color: #adbbda;
 
 }
 .profession {
     font-weight: 400;
     font-size: 1.4rem;
     margin-bottom: 0;
-    color: blueviolet;
+    color: #3d5290;
 }
 .skill-intro {
     margin-bottom: 0;
     font-size: 3rem;
     line-height: 1.5;
     text-decoration: underline;
-    text-decoration-color: blueviolet;
+    text-decoration-color: #3d5290;
     text-decoration-thickness: 3px;
     padding-top: 4rem;
     text-underline-offset: 6px;
@@ -87,7 +87,7 @@ li {
     justify-content: center;
     align-items: center;
     gap: 20px;
-    background-color: antiquewhite;
+    background-color: #adbbda;
     margin-bottom: 1rem;
     padding: 10px 20px;
     border-radius: 8px;

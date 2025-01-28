@@ -10,13 +10,13 @@
     font-size: 1.2rem;
 }
 .list-items:hover{
-    color: blueviolet;
+    color: #3d5290;
     cursor: pointer;
 }
 .list-items.active {
     text-decoration: underline;
-    text-decoration-color: blueviolet;
-    color: blueviolet;
+    text-decoration-color: #3d5290;
+    color: #3d5290;
     text-underline-offset: 6px;
     
 }
@@ -24,7 +24,7 @@
     height: 50px;
     width: 50px;
     border-radius: 50%;
-    background-color: antiquewhite;
+    background-color: #3d52a0;
 }
 .logo p {
     padding-top: 0;
@@ -36,7 +36,7 @@
    
 }
 .navbar {
-    position: sticky;
+    /* position: sticky; */
     top: 0;
     z-index: 3;
     padding: 1rem 2rem;
