@@ -35,7 +35,7 @@ function ProfileLinks() {
               <a href={links.item} target="_blank" rel="noreferrer">
                 <img src={links.photo} alt='website' />
               </a>
-              <p>{links.title}</p>
+              <p className="links-title">{links.title}</p>
             </div>
           ))
         : null}

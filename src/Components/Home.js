@@ -22,7 +22,7 @@ function Home () {
                     <div className=''>
                         <p className='name'><span>Hello</span> I'm {person.name}</p>
                         <p className='profession'>{person.profession}</p>
-                        <p>I'm a skilled frontend website developer with
+                        <p className='header-intro'>I'm a skilled frontend website developer with
                          experience in creating modern and responsive websites</p>
                         
                     </div>

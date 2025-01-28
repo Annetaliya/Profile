@@ -5,8 +5,8 @@ import "./about.css";
 
 function About() {
   return (
-    <div className="about-container">
-      <div>
+    <div className="about-container" id="about">
+      <div className='socials-container'>
         <a
           href="https://www.linkedin.com/in/annette-adhiambo-863889109?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BSBEw7tsrQneyjatA3q6WtA%3D%3D"
           target="_blank"
@@ -19,11 +19,11 @@ function About() {
         rel="noopener noreferrer"
         >
             <FaGithub size={30} color='#000'/>
-        </a>
-
-        
+        </a> 
       </div>
-      <div className="portfolio-intro">Welcome to my Portfolio website</div>
+      <div className="portfolio-intro">
+        <p><span className="welcome">Welcome </span> to my Portfolio website</p>
+      </div>
       <div className="skills-intro">
         I specialize in front-end engineering with proficiency in JavaScript,
         HTML and CSS. I am highly skilled in working with React, including state

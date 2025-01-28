@@ -70,6 +70,10 @@ li {
     margin-bottom: 0;
     color: #3d5290;
 }
+.header-intro {
+    font-family: 'Poppins', sans-serif;
+    
+}
 .skill-intro {
     margin-bottom: 2rem;
     font-size: 3rem;

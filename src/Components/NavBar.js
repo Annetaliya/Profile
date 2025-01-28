@@ -4,7 +4,7 @@ import "./navBar.css";
 
 const nav = [
   { name: "Home", to: "home" },
-  { name: "About", to: "home" },
+  { name: "About", to: "about" },
   { name: "Portfolio", to: "portfolio" },
   { name: "Contact", to: "contact" },
 ];
