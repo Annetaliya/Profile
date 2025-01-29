@@ -31,7 +31,7 @@ function Home () {
                     </div>    
                 </div>
                
-                <h1 className='skill-intro'>What I do</h1>
+                <p className='skill-intro'>What I do</p>
                 <div className='skill-container'>
                     <div className='skill-container-first'>
                         <MdComputer size={40}/>

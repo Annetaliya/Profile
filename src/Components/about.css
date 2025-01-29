@@ -2,13 +2,16 @@
 .about-container {
     display: flex;
     justify-content: center;
-    margin: 8rem 2rem;
+    margin: 1rem 2rem;
 }
 .socials-container {
     padding: 1rem 1rem;
     background-color: #adbbda;
     border-radius: 5px;
     margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 .portfolio-intro {
     font-size: 1rem;
@@ -23,9 +26,22 @@
 
 }
 .welcome {
-    font-size: 3rem;
+    font-size: 1.5rem;
     color: #3d5290;
     font-family: 'Playfair Display', sans-serif;;
+    font-weight: 500;
+}
+.about-title {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 1.8;
+    text-decoration: underline;
+    text-decoration-color: #3d5290;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 6px;
+    font-family: 'Playfair Display', sans-serif;
+    margin-bottom: 0;
 }
 
 @media (max-width: 576px) and (max-width: 768px) {

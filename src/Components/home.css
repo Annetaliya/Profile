@@ -83,6 +83,7 @@ li {
     text-decoration-thickness: 3px;
     padding-top: 4rem;
     text-underline-offset: 6px;
+    font-weight: 500;
     font-family: 'Playfair Display', sans-serif;
 }
 .skill-container {
