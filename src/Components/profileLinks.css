@@ -65,6 +65,11 @@
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
+    display: none;
+}
+.proLink:hover .btn1,
+.proLink:hover .btn2 {
+    display: block;
 }
 .btn2 {
     position: absolute;
@@ -77,6 +82,8 @@
     border: none;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
+    display: none;
+    
 }
 .btn2:hover{
     background-color: #adbbda;

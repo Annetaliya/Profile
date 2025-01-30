@@ -37,7 +37,7 @@ function ProfileLinks() {
         {link.length !== 0
           ? link.map((links, index) => (
               <div key={index} className="proLink">
-                  <img src={links.photo} alt='website'/>
+                  <img src={links.photo} alt='website' loading='lazy'/>
                   
                     <a href={links.item} target="_blank" rel="noreferrer">
                       <button className="btn1">Website</button>

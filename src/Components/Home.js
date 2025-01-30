@@ -27,7 +27,7 @@ function Home () {
                         
                     </div>
                     <div>
-                        <img src={person.photo} alt="profile"/>
+                        <img src={person.photo} alt="profile" loading='lazy'/>
                     </div>    
                 </div>
                
