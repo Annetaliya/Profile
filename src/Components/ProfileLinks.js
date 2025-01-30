@@ -37,16 +37,14 @@ function ProfileLinks() {
         {link.length !== 0
           ? link.map((links, index) => (
               <div key={index} className="proLink">
-                <a href={links.item} target="_blank" rel="noreferrer">
                   <img src={links.photo} alt='website'/>
-                  <button className="btn1">
-                    <a href={links.item} target="_blank" rel="noreferrer">website</a>
-                  </button>
-                  <button className="btn2">
-                    <a href={links.github} target="_blank" rel="noreferrer">Github</a>
-                  </button>
                   
-                </a>
+                    <a href={links.item} target="_blank" rel="noreferrer">
+                      <button className="btn1">Website</button>
+                    </a>
+                    <a href={links.github} target="_blank" rel="noreferrer">
+                      <button className="btn2">Github</button>
+                    </a>
                 <p className="links-title">{links.title}</p>
               </div>
             ))

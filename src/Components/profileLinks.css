@@ -63,6 +63,8 @@
     outline: none;
     padding: 5px 8px;
     border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
 }
 .btn2 {
     position: absolute;
@@ -73,14 +75,21 @@
     padding: 5px 8px;
     border-radius: 5px;
     border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
 }
 .btn2:hover{
-    background-color: #3d5290;
+    background-color: #adbbda;
+    color: black;
+    padding: 8px 10px;
     
 }
 .btn1:hover{
-    display: block;
+    background-color: #adbbda;
+    color: black;
+    padding: 8px 10px;   
 }
+
  @media (max-width: 576px) and (max-width: 768px){
     .intro-paragraph {
         text-align: center;
