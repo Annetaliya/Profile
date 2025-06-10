@@ -74,6 +74,10 @@ li {
     font-family: 'Poppins', sans-serif;
     
 }
+.profileImage {
+    object-fit: cover;
+    max-width: 250px;
+}
 .skill-intro {
     margin-bottom: 2rem;
     font-size: 3rem;

@@ -2,9 +2,10 @@ import React from 'react';
 import './home.css'
 import { MdComputer } from "react-icons/md";
 import { FaFigma } from "react-icons/fa6";
+import Profile from './Images/profile1.JPG'
 
 const person = {    
-        photo: 'https://lh3.googleusercontent.com/d/1JeJZkwlAJFPJrrM14ci7Ji_tS8iumrr6=s220?authuser=0', 
+        photo: Profile, 
         name: 'Annette Adhiambo',
         profession: 'Fontend Developer',
         skills: {
@@ -27,7 +28,7 @@ function Home () {
                         
                     </div>
                     <div>
-                        <img src={person.photo} alt="profile" loading='lazy'/>
+                        <img src={person.photo} alt="profile" loading='lazy' className='profileImage'/>
                     </div>    
                 </div>
                
