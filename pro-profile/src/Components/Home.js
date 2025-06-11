@@ -7,7 +7,7 @@ import Profile from './Images/profile1.JPG'
 const person = {    
         photo: Profile, 
         name: 'Annette Adhiambo',
-        profession: 'Fontend Developer',
+        profession: 'Frontend Developer',
         skills: {
             skill1: 'Web design',
             skill2: 'Front-end development'
