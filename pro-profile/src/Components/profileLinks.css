@@ -5,19 +5,23 @@
     font-weight: 500;
     line-height: 1.8;
     text-decoration: underline;
-    text-decoration-color: #3d5290;
+    text-decoration-color: #EF88AD;
     text-decoration-thickness: 3px;
     text-underline-offset: 6px;
     font-family: 'Playfair Display', sans-serif;
     margin-bottom: 0;
+    color: #E8BCB9;
 }
 .links-title {
     font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-weight: 400;
 }
 .intro-paragraph {
     text-align: center;
     margin: 1rem 10rem;
     font-family: 'Poppins', sans-serif;
+    color: #fff;
 }
 .container {
     display: flex;
@@ -31,8 +35,9 @@
 }
 .profile-container {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: start;
     flex-wrap: wrap;
     
 }
@@ -52,6 +57,11 @@
 .proLink img {
     max-width: 300px;
     min-width: 300px;
+    border-radius: 10px;
+    transition:  all 0.3s ease-in-out;
+}
+.proLink img:hover {
+    max-width: 350px;
 }
 .btn1 {
     position: absolute;

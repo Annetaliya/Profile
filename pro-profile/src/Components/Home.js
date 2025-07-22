@@ -31,6 +31,21 @@ function Home () {
                         <img src={person.photo} alt="profile" loading='lazy' className='profileImage'/>
                     </div>    
                 </div>
+                <div className='parent-stack'>
+                    {/* <h1>Tech stack</h1> */}
+                    <div className='stack'>
+                        <p>HTML</p>
+                        <p>CSS</p>
+                        <p>JavaScript</p>
+                        <p>React</p>
+                        <p>Mysql</p>
+                        <p>REST API</p>
+                        <p>Node js</p>
+                        <p>GitHub</p>
+
+                    </div>
+                    
+                </div>
                
                 <p className='skill-intro'>What I do</p>
                 <div className='skill-container'>

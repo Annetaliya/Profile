@@ -1,9 +1,17 @@
 .footer {
-    background-color: #adbbda;
+    background: linear-gradient(
+    to right,
+    #670D2F 0%,     /* Left fade start */
+    #EF88AD 20%,    /* Main color start */
+    #670D2F 80%,    /* Main color end */
+    #670D2F 90%    /* Right fade end */
+  );
 }
 
 .copy-text {
     padding: 20px 0;
+    color: #fff;
+    font-weight: 400;
 }
 .contactInfo span {
     padding-left: 10px;
@@ -15,5 +23,7 @@
     gap: 20px;
     padding-top: 10px;
     cursor: pointer;
+    color: #fff;
+    font-weight: 400;
 
 }

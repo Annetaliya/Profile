@@ -1,9 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
+
 body {
     height: 100vh;
-    background-color: #ede8f5;
+    background-color: #670D2f;
     
 }
 .container {
@@ -22,8 +23,9 @@ body {
 .title {
     display: flex;
     align-items: center;
-    justify-content: space-around;
     padding-top: 20px;
+    justify-content: center;
+    gap: 80px;
     
 }
 .into-text {
@@ -55,11 +57,12 @@ li {
     margin-bottom: 0;
     display: flex;
     flex-direction: column;
+    color: #FFF;
 
 }
 .name span {
     font-size: 7rem;
-    color: #adbbda;
+    color: #E8BCB9;
     font-family: 'Playfair Display', sans-serif;
     font-weight: 600;
 
@@ -68,27 +71,32 @@ li {
     font-weight: 400;
     font-size: 1.4rem;
     margin-bottom: 0;
-    color: #3d5290;
+    color: #EF88AD;
 }
 .header-intro {
     font-family: 'Poppins', sans-serif;
+    color: #FFF;
+    max-width: 400px
     
 }
 .profileImage {
     object-fit: cover;
-    max-width: 250px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
 }
 .skill-intro {
     margin-bottom: 2rem;
     font-size: 3rem;
     line-height: 1.5;
     text-decoration: underline;
-    text-decoration-color: #3d5290;
+    text-decoration-color: #EF88AD;
     text-decoration-thickness: 3px;
     padding-top: 4rem;
     text-underline-offset: 6px;
     font-weight: 500;
     font-family: 'Playfair Display', sans-serif;
+    color: #E8BCB9;
 }
 .skill-container {
     display: flex;
@@ -102,11 +110,44 @@ li {
     justify-content: center;
     align-items: center;
     gap: 20px;
-    background-color: #adbbda;
+    background-color: #E8BCB9;
     margin-bottom: 1rem;
     padding: 10px 20px;
     border-radius: 8px;
     min-width: 550px;
+    cursor: pointer;
+
+}
+.stack {
+    display: flex;
+    align-items: center;
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
+    justify-content: center;
+    gap: 45px;
+    /* background-color: #EF88AD; */
+    margin-top: 4rem;  
+    flex-wrap: wrap;
+    
+    /* background: linear-gradient(to bottom, #EF88AD, #670D2f); */
+     background: linear-gradient(
+    to right,
+    #670D2F 0%,     /* Left fade start */
+    #EF88AD 20%,    /* Main color start */
+    #670D2F 80%,    /* Main color end */
+    #670D2F 90%    /* Right fade end */
+  );
+
+}
+.stack p {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #FFF;
+    transition: all 0.3s ease-in-out;
+}
+.stack p:hover{
+    color: #E8BCB9;
+    font-size: 0.8rem;
     cursor: pointer;
 
 }

@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
 .nav-items {
     display: flex;
     align-items: center;
@@ -7,16 +11,17 @@
 }
 .list-items {
     padding-right: 4rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
+    color: #fff;
 }
 .list-items:hover{
-    color: #3d5290;
+    color: #e8bcb9;
     cursor: pointer;
 }
 .list-items.active {
     text-decoration: underline;
-    text-decoration-color: #3d5290;
-    color: #3d5290;
+    text-decoration-color: #e8bcb9;
+    color: #e8bcb9;
     text-underline-offset: 6px;
     
 }
@@ -24,10 +29,12 @@
     height: 50px;
     width: 50px;
     border-radius: 50%;
-    background-color: #3d52a0;
+    background-color: #e8bcb9;
 }
 .logo p {
     padding-top: 0;
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 500;
 }
 .nav-container {
     display: flex;

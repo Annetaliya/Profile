@@ -23,9 +23,9 @@ function About() {
               <FaGithub size={35} color='#000'/>
           </a> 
         </div>
-        <div className="portfolio-intro">
+        {/* <div className="portfolio-intro">
           <p><span className="welcome">Welcome </span> to my Portfolio website</p>
-        </div>
+        </div> */}
         <div className="skills-intro">
           I specialize in front-end engineering with proficiency in JavaScript,
           HTML and CSS. I am highly skilled in working with React, including state
