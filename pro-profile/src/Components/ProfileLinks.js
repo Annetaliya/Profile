@@ -1,7 +1,7 @@
 import React from "react";
 import "./profileLinks.css";
 import Restaurant from './Images/project1.PNG'
-import Ecom from './Images/e-com.PNG';
+import Ecom from './Images/cookie store.png';
 import Landing from './Images/landingT.PNG';
 
 
@@ -19,8 +19,8 @@ const link = [
     photo: Landing
   },
   {
-    item: "https://659968189ed589e081611c57--jocular-valkyrie-82c7de.netlify.app/",
-    github: "https://github.com/Annetaliya/React-ecommerce",
+    item: "https://sugar-rush-co-xj37.vercel.app",
+    github: "https://github.com/Annetaliya/sugar-rush-co",
     title: "E-Commerce Website",
     photo: Ecom
   },
