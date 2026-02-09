@@ -3,27 +3,37 @@ import "./profileLinks.css";
 import Restaurant from './Images/project1.PNG'
 import Ecom from './Images/cookie store.png';
 import Landing from './Images/landingT.PNG';
+import Lawris from './Images/Lawris.png';
 
 
 const link = [
   {
     item: "https://restaurant-reservation-system-livid.vercel.app/",
-    github: "#home",
+    github: "https://github.com/Annetaliya/Restaurant-Reservation-System",
     title: "Restaurant Reservation",
     photo: Restaurant
   },
   {
-    item: "https://landing-page-i6zw.vercel.app/",
-    github: "https://github.com/Annetaliya/Landing-Page",
-    title: "Sample landing page",
-    photo: Landing
+    item: 'https://lawris-app.com',
+    github: '#home',
+    title: 'Legal application system',
+    photo: Lawris,
   },
+
+  
   {
     item: "https://sugar-rush-co-xj37.vercel.app",
     github: "https://github.com/Annetaliya/sugar-rush-co",
     title: "E-Commerce Website",
     photo: Ecom
   },
+
+  // {
+  //   item: "https://landing-page-i6zw.vercel.app/",
+  //   github: "https://github.com/Annetaliya/Landing-Page",
+  //   title: "Sample landing page",
+  //   photo: Landing
+  // },
   
 ];
 
