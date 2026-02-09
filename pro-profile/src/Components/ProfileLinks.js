@@ -2,7 +2,6 @@ import React from "react";
 import "./profileLinks.css";
 import Restaurant from './Images/project1.PNG'
 import Ecom from './Images/cookie store.png';
-import Landing from './Images/landingT.PNG';
 import Lawris from './Images/Lawris.png';
 
 
@@ -28,12 +27,6 @@ const link = [
     photo: Ecom
   },
 
-  // {
-  //   item: "https://landing-page-i6zw.vercel.app/",
-  //   github: "https://github.com/Annetaliya/Landing-Page",
-  //   title: "Sample landing page",
-  //   photo: Landing
-  // },
   
 ];
 
